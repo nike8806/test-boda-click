@@ -1,0 +1,7 @@
+services_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: ServicesBundle:Default:index }
+
+services_reversestring:
+    pattern:  /reversestring
+    defaults: { _controller: ServicesBundle:Default:reverseString }
